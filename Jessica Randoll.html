@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ao">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Social links profile</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #141414;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      position: relative;
+      flex-direction: column;
+    }
+
+    .card {
+      background-color: #222222;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      padding: 60px 48px 30px 28px;
+      text-align: center;
+      width: 300px;
+      margin-left: 20px;
+      margin-right: 40px;
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 30px;
+      margin-top: -25px;
+    }
+
+    .nome {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-top: -14px;
+      margin-bottom: 1px;
+    }
+
+    .londres {
+      color: #c5f82a;
+      font-weight: bold;
+      margin-top: 15px;
+      margin-bottom: 27px;
+    }
+
+    .bio {
+      font-weight: bold;
+      color: #ccc;
+      margin-bottom: 41px;
+    }
+
+    .button {
+      display: block;
+      width: 98%;
+      padding: 13px;
+      margin: 15px 0;
+      background-color: #302f2f;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .button:active {
+      color: #141414;
+      background-color: #c5f82a;
+    }
+
+    footer {
+      position: relative;
+      bottom: 20px;
+      background-color: #141414;
+      color: #fff;
+      padding: 10px;
+      bottom: -16px;
+      text-align: center;
+      font-size: 0.7em;
+      margin: 0;
+    }
+
+    a {
+      color: #5a73e4e0;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 90%;
+        padding: 40px 30px 20px 20px;
+      }
+
+      .profile-img {
+        width: 80px;
+        height: 80px;
+      }
+
+      .nome {
+        font-size: 1.2em;
+      }
+
+      .londres {
+        font-size: 0.9em;
+        margin-bottom: 20px;
+      }
+
+      .bio {
+        font-size: 0.9em;
+        margin-bottom: 30px;
+      }
+
+      .button {
+        padding: 10px;
+        font-size: 0.9em;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 80%;
+      }
+
+      .profile-img {
+        width: 90px;
+        height: 90px;
+      }
+
+      .nome {
+        font-size: 1.3em;
+      }
+
+      .londres {
+        font-size: 1em;
+      }
+
+      .bio {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <img src="avatar-jessica.jpeg" alt="Profile Image" class="profile-img">
+    <div class="nome"><strong>Jessica Randall</strong></div>
+    <div class="londres">London, United Kingdom</div>
+    <div class="bio">"Front-end developer and avid reader."</div>
+
+    <a href="#" class="button">GitHub</a>
+    <a href="#" class="button">Frontend Mentor</a>
+    <a href="#" class="button">LinkedIn</a>
+    <a href="#" class="button">Twitter</a>
+    <a href="#" class="button">Instagram</a>
+  </div>
+
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Rosário Pedro António</a>.
+    </div>
+  </footer>
+
+</body>
+
+</html>
